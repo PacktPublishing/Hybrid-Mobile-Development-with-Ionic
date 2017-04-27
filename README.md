@@ -21,15 +21,15 @@ All of the code is organized into folders. The commands and instructions will lo
      import {Component} from '@angular/core';
      import {NavController} from 'ionic-angular';
 
-   @Component({
+      @Component({
      templateUrl: 'build/pages/catalog/categories.html'
-   })
+    })
      export class CategoryPage {
     // DI of NavController for navigation
      constructor(private navCtrl: NavController) {
       this.nav = navCtrl;
      }
-   }
+    }
 
 
 
